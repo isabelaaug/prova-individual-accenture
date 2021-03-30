@@ -75,10 +75,10 @@ public class Formulario2InsurantSteps {
 		input.sendKeys(string);
 	}
 
-	@Dado("anexo em Picture {string}")
-	public void anexo_em_Picture(String string) {
-		WebElement addFile = Configuracoes.browser.findElement(By.xpath("//*[@id=\"open\"]"));
-		addFile.sendKeys("C:\\Users\\isabe\\Desktop\\Projetos\\prova-individual-accenture\\assets\\foto.jpeg");
+	@Dado("anexo em Picture foto jpeg")
+	public void anexo_em_Picture_foto_jpeg() {
+		WebElement addFile = Configuracoes.browser.findElement(By.xpath("//*[@id=\"picture\"]"));
+  		addFile.sendKeys("C:/Users/isabe/Desktop/Projetos/prova-individual-accenture/assets/foto.jpeg");
 	}
 
 	@Entao("devo clicar em Next para o formulario Product Data")

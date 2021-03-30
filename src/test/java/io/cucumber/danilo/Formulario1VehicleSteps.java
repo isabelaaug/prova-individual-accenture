@@ -11,6 +11,11 @@ import io.cucumber.java.pt.*;
 
 public class Formulario1VehicleSteps {
 	
+	@Dado("que eu estou no site da Tricentis {string}")
+	public void que_eu_estou_no_site_da_Tricentis(String string) {
+	    Configuracoes.abrir(string);
+	}
+	
 	@Dado("seleciono em Make {string}")
 	public void seleciono_em_Make(String string) {
 		Select dropdown = new Select(Configuracoes.browser.findElement(By.id("make")));

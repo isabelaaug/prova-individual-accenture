@@ -2,7 +2,7 @@
 Funcionalidade: Acessar o site da Tricentis e testar o cadastro para envio de cotacao
   Criando uma rotina de teste para validar formulario que gera cotacoes
 	
-	@ignore
+	
   Cenario: Formulario 3 Enter Product Data
     Dado que eu estou no site da Tricentis no formulario "Enter Product Data"
     E digito em Start Date "05/01/2021"

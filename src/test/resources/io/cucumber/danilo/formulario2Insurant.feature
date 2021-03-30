@@ -15,7 +15,7 @@ Funcionalidade: Acessar o site da Tricentis e testar o cadastro para envio de co
     E seleciono em Occupation "Employee"
     E seleciono em Hobbies "Bungee Jumping"
     E informo em Website "www.fulananews.com.br"
-    E anexo em Picture "foto"
+    E anexo em Picture foto jpeg
     Entao devo clicar em Next para o formulario Product Data
 	
 
